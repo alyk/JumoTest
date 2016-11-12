@@ -103,12 +103,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onTestStart(View view) {
-//        if (isRunning) {
-//            stopTest();
-//            Logger.log("aborted... restarting...");
-//        } else {
-//            Logger.log("starting...");
-//        }
+
         stopTest();
 
         thrd = new Thread(new Runnable() {
