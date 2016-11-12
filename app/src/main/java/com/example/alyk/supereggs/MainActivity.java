@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
                     Logger.log("------------------------------");
 
                 } catch (InterruptedIOException e1) {
-                    Logger.log("-------------!!!!!!!!!!!!!!!!-----------------");
+                    //Logger.log("!!!");
                 } catch (IOException e) {
                     Log.d(TAG, "Exception while requesting GettingEggs: " + e);
                     Logger.log("------------------------------");
